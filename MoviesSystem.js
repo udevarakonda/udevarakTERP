@@ -15,7 +15,7 @@ require("dotenv").config({
 });
 */
 
-const databaseName = "CMSC335DB";
+const databaseName = "CMSC335DB_project7";
 const collectionName = "moviesCollection";
 const uri = process.env.MONGO_CONNECTION_STRING;
 const client = new MongoClient(uri, { serverApi: ServerApiVersion.v1 });
